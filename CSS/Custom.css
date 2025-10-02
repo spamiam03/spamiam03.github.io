@@ -50,13 +50,13 @@
 }
 .theme-entry .grid table.grid-content-table > tbody > tr,
 .theme-entry .grid table.grid-content-table > tr,
-.theme-entry .grid table.grid-content-table tr.nowrap td { {
+.theme-entry .grid table.grid-content-table tr.nowrap td {
   --layout-cell-padding-top: 0.2rem;
   --layout-cell-padding-bottom: 0.2rem;
   --layout-cell-padding-left: 0.2rem;
   --layout-cell-padding-right: 0.2rem;
-
 }
+
 
 
 
