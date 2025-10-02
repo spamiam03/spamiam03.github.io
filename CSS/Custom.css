@@ -1,0 +1,50 @@
+.theme-entry {
+  --layout-cell-padding-top: 0.2rem;
+  --layout-cell-padding-bottom: 0.2rem;
+  --layout-cell-padding-left: 0.2rem;
+  --layout-cell-padding-right: 0.2rem;
+.theme-entry .tab-box:not(.form-tabs) > .tab-box-body > * {
+  --layout-cell-padding-top: 0.2rem;
+  --layout-cell-padding-bottom: 0.2rem;
+  --layout-cell-padding-left: 0.2rem;
+  --layout-cell-padding-right: 0.2rem;
+}
+.theme-entry .form,
+.theme-entry .form,
+.theme-entry #pgInnerPanel,
+.theme-entry #pgInnerPanel,
+.theme-entry .form-tabs > .tab-box-body,
+.theme-entry .form-tabs > .tab-box-body,
+.theme-entry #pgTabContent {
+  --layout-cell-padding-top: 0.2rem;
+  --layout-cell-padding-bottom: 0.2rem;
+  --layout-cell-padding-left: 0.2rem;
+  --layout-cell-padding-right: 0.2rem;
+}
+.theme-entry .form .toolbars,
+.theme-entry #pgInnerPanel .toolbars,
+.theme-entry .form-tabs > .tab-box-body .toolbars,
+.theme-entry #pgTabContent .toolbars {
+  --layout-cell-padding-top: 0.2rem;
+  --layout-cell-padding-bottom: 0.2rem;
+  --layout-cell-padding-left: 0.2rem;
+  --layout-cell-padding-right: 0.2rem;
+}
+.theme-entry .dialog {
+  --layout-cell-padding-top: 0.2rem;
+  --layout-cell-padding-bottom: 0.2rem;
+  --layout-cell-padding-left: 0.2rem;
+  --layout-cell-padding-right: 0.2rem;
+}
+.theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * {
+  --layout-cell-padding-top: 0.2rem;
+  --layout-cell-padding-bottom: 0.2rem;
+  --layout-cell-padding-left: 0.2rem;
+  --layout-cell-padding-right: 0.2rem;
+}
+.theme-entry .editor-cell, .theme-entry .form {
+  padding-left: var(--layout-cell-padding-left) !important;
+  padding-right: var(--layout-cell-padding-right) !important;
+  padding-top: var(--layout-cell-padding-top) !important;
+  padding-bottom: var(--layout-cell-padding-bottom) !important;
+}
