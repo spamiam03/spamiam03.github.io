@@ -45,9 +45,16 @@
   padding-top: var(--layout-cell-padding-top) !important;
   padding-bottom: var(--layout-cell-padding-bottom) !important;
 }
-.theme-entry .grid .grid-content-cell-wrapper {
-  padding: 0.2rem;
+.theme-entry .view .innerpanel > .grid,
+.theme-entry .view .innerpanel > .panel,
+.theme-entry .view-canvas > .grid,
+.theme-entry .view-canvas > .panel {
+  --layout-cell-padding-top: 0.2rem;
+  --layout-cell-padding-bottom: 0.2rem;
+  --layout-cell-padding-left: 0.2rem;
+  --layout-cell-padding-right: 0.2rem;
 }
+
 
 
 
