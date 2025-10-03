@@ -45,15 +45,16 @@
   padding-top: var(--layout-cell-padding-top) !important;
   padding-bottom: var(--layout-cell-padding-bottom) !important;
 }
-.theme-entry .dialog .view .innerpanel > .grid,
-.theme-entry .dialog .view .innerpanel > .panel,
-.theme-entry .dialog .view-canvas > .grid,
-.theme-entry .dialog .view-canvas > .panel {
+.theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .grid,
+.theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .panel,
+.theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .grid,
+.theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .panel {
   --layout-cell-padding-top: 0.2rem;
   --layout-cell-padding-bottom: 0.2rem;
   --layout-cell-padding-left: 0.2rem;
   --layout-cell-padding-right: 0.2rem;
 }
+
 
 
 
