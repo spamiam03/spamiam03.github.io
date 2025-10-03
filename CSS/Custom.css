@@ -47,8 +47,12 @@
 }
 .theme-entry.runtime-form span.runtime-list-item-wrap,
 .theme-entry.runtime-form span.runtime-list-item {
-  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  padding-left: var(--layout-cell-padding-left) !important;
+  padding-right: var(--layout-cell-padding-right) !important;
+  padding-top: var(--layout-cell-padding-top) !important;
+  padding-bottom: var(--layout-cell-padding-bottom) !important;
 }
+
 
 
 
