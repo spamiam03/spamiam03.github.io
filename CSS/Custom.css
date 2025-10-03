@@ -45,15 +45,20 @@
   padding-top: var(--layout-cell-padding-top) !important;
   padding-bottom: var(--layout-cell-padding-bottom) !important;
 }
-.theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .grid,
-.theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .panel,
-.theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .grid,
-.theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .panel {
+.theme-entry .view .panel-header-wrapper .panel-header-controls a,
+.theme-entry .view-canvas .panel-header-wrapper .panel-header-controls a,
+.theme-entry .view .grid-header-wrapper .panel-header-controls a,
+.theme-entry .view-canvas .grid-header-wrapper .panel-header-controls a,
+.theme-entry .view .panel-header-wrapper .grid-header-controls a,
+.theme-entry .view-canvas .panel-header-wrapper .grid-header-controls a,
+.theme-entry .view .grid-header-wrapper .grid-header-controls a,
+.theme-entry .view-canvas .grid-header-wrapper .grid-header-controls a {
   --layout-cell-padding-top: 0.2rem;
   --layout-cell-padding-bottom: 0.2rem;
   --layout-cell-padding-left: 0.2rem;
   --layout-cell-padding-right: 0.2rem;
 }
+
 
 
 
