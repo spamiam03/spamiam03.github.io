@@ -45,19 +45,16 @@
   padding-top: var(--layout-cell-padding-top) !important;
   padding-bottom: var(--layout-cell-padding-bottom) !important;
 }
-.theme-entry .form .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table tr.selected > td,
-.theme-entry #pgInnerPanel .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table tr.selected > td,
-.theme-entry .form-tabs > .tab-box-body .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table tr.selected > td,
-.theme-entry #pgTabContent .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table tr.selected > td,
-.theme-entry .form .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td,
-.theme-entry #pgInnerPanel .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td,
-.theme-entry .form-tabs > .tab-box-body .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td,
-.theme-entry #pgTabContent .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td {
+.theme-entry .dialog .view .innerpanel > .grid,
+.theme-entry .dialog .view .innerpanel > .panel,
+.theme-entry .dialog .view-canvas > .grid,
+.theme-entry .dialog .view-canvas > .panel {
   --layout-cell-padding-top: 0.2rem;
   --layout-cell-padding-bottom: 0.2rem;
   --layout-cell-padding-left: 0.2rem;
   --layout-cell-padding-right: 0.2rem;
 }
+
 
 
 
