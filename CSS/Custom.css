@@ -45,27 +45,28 @@
   padding-top: var(--layout-cell-padding-top) !important;
   padding-bottom: var(--layout-cell-padding-bottom) !important;
 }
-.theme-entry .form .view .innerpanel > .grid,
-.theme-entry #pgInnerPanel .view .innerpanel > .grid,
-.theme-entry .form-tabs > .tab-box-body .view .innerpanel > .grid,
-.theme-entry #pgTabContent .view .innerpanel > .grid,
-.theme-entry .form .view .innerpanel > .panel,
-.theme-entry #pgInnerPanel .view .innerpanel > .panel,
-.theme-entry .form-tabs > .tab-box-body .view .innerpanel > .panel,
-.theme-entry #pgTabContent .view .innerpanel > .panel,
-.theme-entry .form .view-canvas > .grid,
-.theme-entry #pgInnerPanel .view-canvas > .grid,
-.theme-entry .form-tabs > .tab-box-body .view-canvas > .grid,
-.theme-entry #pgTabContent .view-canvas > .grid,
-.theme-entry .form .view-canvas > .panel,
-.theme-entry #pgInnerPanel .view-canvas > .panel,
-.theme-entry .form-tabs > .tab-box-body .view-canvas > .panel,
-.theme-entry #pgTabContent .view-canvas > .panel {
+.theme-entry .form .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .grid,
+.theme-entry #pgInnerPanel .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .grid,
+.theme-entry .form-tabs > .tab-box-body .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .grid,
+.theme-entry #pgTabContent .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .grid,
+.theme-entry .form .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .panel,
+.theme-entry #pgInnerPanel .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .panel,
+.theme-entry .form-tabs > .tab-box-body .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .panel,
+.theme-entry #pgTabContent .tab-box:not(.form-tabs) > .tab-box-body > * .view .innerpanel > .panel,
+.theme-entry .form .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .grid,
+.theme-entry #pgInnerPanel .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .grid,
+.theme-entry .form-tabs > .tab-box-body .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .grid,
+.theme-entry #pgTabContent .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .grid,
+.theme-entry .form .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .panel,
+.theme-entry #pgInnerPanel .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .panel,
+.theme-entry .form-tabs > .tab-box-body .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .panel,
+.theme-entry #pgTabContent .tab-box:not(.form-tabs) > .tab-box-body > * .view-canvas > .panel {
   --layout-cell-padding-top: 0.2rem;
   --layout-cell-padding-bottom: 0.2rem;
   --layout-cell-padding-left: 0.2rem;
   --layout-cell-padding-right: 0.2rem;
 }
+
 
 
 
