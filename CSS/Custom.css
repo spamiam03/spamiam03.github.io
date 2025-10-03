@@ -50,9 +50,9 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
-  /*the headers have a 2px border and a 6px padding moved from .theme-entry .grid .grid-content-cell-wrapper to ensure highlight shadow doesn't get cut off*/
+  padding: 0.5rem 0.2rem 0.2rem 0.2rem;
 }
+
 
 
 
