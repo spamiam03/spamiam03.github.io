@@ -54,5 +54,7 @@
   font-size: small !important;
 }
 .theme-entry .grid .grid-content-cell-wrapper {
-    padding: .1rem .1rem;
+  padding: .1rem .1rem !important;
+  font-size: small !important;
 }
+
