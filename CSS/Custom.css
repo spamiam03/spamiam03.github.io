@@ -53,7 +53,6 @@
   padding: 0.1rem 0.1rem 0.1rem 0.1rem !important;
   font-size: small !important;
 }
-.theme-entry>form>div>.grid .grid-content-cell-wrapper>*:not(.hidden) {
-  padding: 0.1rem 0.1rem 0.1rem 0.1rem !important;
-  font-size: small !important;
+.theme-entry .grid .grid-content-cell-wrapper {
+    padding: .1rem .1rem;
 }
